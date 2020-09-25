@@ -1,0 +1,13 @@
+from: markdown
+to: html
+standalone: true
+fail-if-warnings: true
+template: default.html
+metadata-files:
+    - resources/data/metadata.yaml
+include-before-body:
+    - resources/view/masthead.html
+include-after-body:
+    - resources/view/footer.html
+css:
+    - /assets/css/style.css

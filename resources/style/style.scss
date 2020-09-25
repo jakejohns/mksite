@@ -1,0 +1,49 @@
+
+@import 'variables';
+
+body {
+  background: $black;
+  color: $snow;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 32em;
+  padding: 1em;
+}
+
+.masthead,
+.footer {
+  border-color: $snow;
+  padding: 1em;
+}
+
+.masthead { border-bottom: 1px solid; }
+.footer { border-top: 1px solid; }
+
+@media only screen and (min-width: 600px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+::selection {
+  background: $magenta;
+  color: $black;
+}
+
+a {
+  &:link,
+  &:visited {
+    color: $gray;
+  }
+
+  &:hover,
+  &:focus {
+    color: $red;
+    outline: 0;
+  }
+}

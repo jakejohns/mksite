@@ -1,0 +1,7 @@
+doctype: html5
+indent-spaces: 2
+indent: yes
+output-html: yes
+quiet: yes
+tidy-mark: no
+wrap: 80
